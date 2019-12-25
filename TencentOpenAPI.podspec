@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/javaoraspx/TencentOpenAPI.git', :tag => s.version.to_s } 
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'TencentOpenAPI.framework'
-  s.frameworks   = 'UIKit','Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
+  s.frameworks   = 'UIKit','WebKit','Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries =  'iconv','sqlite3','stdc++','z'
 
 end
