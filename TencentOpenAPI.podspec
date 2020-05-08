@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'TencentOpenAPI'
-  s.version          = '3.3.7'
+  s.version          = '3.3.9'
   s.summary          = 'A short description of TencentOpenAPI.'
-  s.description      = 'TencentOpenAPI 3.3.7'
+  s.description      = 'TencentOpenAPI 3.3.9'
   s.homepage         = 'https://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD' 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'trycatch' => '' }
